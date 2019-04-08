@@ -593,7 +593,7 @@ class View_1(models.Model):
     req_itemcode = models.CharField(max_length=50, blank=True, null=True)
     hospitalname = models.CharField(max_length=64, blank=True, null=True)
     yishengzhenduan = models.TextField(blank=True, null=True)  # This field type is a guess.
-    
+
     class Meta:
         managed = False
         db_table = 'View_1'
