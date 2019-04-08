@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baa3962f-b77f-4b73-b6d2-1561b839f26a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FinancialStatistics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinancialStatistics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinancialStatistics/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FinancialStatistics/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +221,7 @@
       <workItem from="1554255923703" duration="5000" />
       <workItem from="1554255963973" duration="7000" />
       <workItem from="1554256004502" duration="9616000" />
-      <workItem from="1554681350394" duration="3109000" />
+      <workItem from="1554681350394" duration="4305000" />
     </task>
     <task id="LOCAL-00001" summary="initializtion verison">
       <created>1554281749815</created>
@@ -237,7 +234,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12981000" />
+    <option name="totallyTimeSpent" value="14177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />

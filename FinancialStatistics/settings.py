@@ -77,13 +77,14 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'NAME': 'lis_quyu',
-        'ENGINE': 'django.db.backends.sqlserver_ado',
+        'ENGINE': 'sql_server.pyodbc',
         'HOST': '20.13.1.101',
+        'PORT': '1433',
         'USER': 'sa',
         'PASSWORD': '1qaz@WSX',
         'OPTIONS': {
-            'provider': 'SQLOLEDB',  # Have also tried 'SQLCLI11' and 'SQLOLEDB'
-            'extra_params': 'DataTypeCompatibility=80'
+            'driver': 'ODBC Driver 17 for SQL Server',
+            'MARS_Connection': True,
         },
     }
 }
