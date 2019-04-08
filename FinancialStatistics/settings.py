@@ -73,8 +73,23 @@ WSGI_APPLICATION = 'FinancialStatistics.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'default': {},
+    'lis_quyu': {
         # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'lis_quyu',
+        'ENGINE': 'sql_server.pyodbc',
+        'HOST': '20.13.1.101',
+        'PORT': '1433',
+        'USER': 'sa',
+        'PASSWORD': '1qaz@WSX',
+        'OPTIONS': {
+            'driver': 'ODBC Driver 17 for SQL Server',
+            'MARS_Connection': True,
+        },
+    },
+    'Rmregion': {
+                # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'NAME': 'lis_quyu',
         'ENGINE': 'sql_server.pyodbc',
@@ -112,7 +127,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'UTC+8'
 
 USE_I18N = True
 
