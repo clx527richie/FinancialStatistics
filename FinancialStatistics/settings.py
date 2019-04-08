@@ -78,7 +78,7 @@ DATABASES = {
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'NAME': 'lis_quyu',
         'ENGINE': 'django.db.backends.sqlserver_ado',
-        'HOST': '127.0.0.1',
+        'HOST': '20.13.1.101',
         'USER': 'sa',
         'PASSWORD': '1qaz@WSX',
         'OPTIONS': {

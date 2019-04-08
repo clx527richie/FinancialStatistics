@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="bb094046-3efe-44a3-988a-2a986a63ad6b">
+      <database-info product="Microsoft SQL Server" version="10.50.1600" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.2 for SQL Server" driver-version="7.2.1.0" dbms="MSSQL" exact-version="10.50.1600" exact-driver-version="7.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+    </data-source>
+  </component>
+</project>
