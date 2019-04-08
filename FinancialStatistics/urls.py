@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from FinancialStatistics import lis_quyu_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('lis_quyu_view/',lis_quyu_view.lis_quyu_View_1)
 ]

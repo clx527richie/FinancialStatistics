@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'FinancialStatistics'
 ]
 
 MIDDLEWARE = [
@@ -84,21 +85,21 @@ DATABASES = {
         'USER': 'sa',
         'PASSWORD': '1qaz@WSX',
         'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
+            'driver': 'ODBC Driver 13 for SQL Server',
             'MARS_Connection': True,
         },
     },
     'Rmregion': {
                 # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'NAME': 'lis_quyu',
+        'NAME': 'Rmregion',
         'ENGINE': 'sql_server.pyodbc',
         'HOST': '20.13.1.101',
         'PORT': '1433',
         'USER': 'sa',
         'PASSWORD': '1qaz@WSX',
         'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
+            'driver': 'ODBC Driver 13 for SQL Server',
             'MARS_Connection': True,
         },
     }
@@ -127,7 +128,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC+8'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
